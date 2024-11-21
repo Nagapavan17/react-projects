@@ -31,10 +31,10 @@ const Contact = () => {
                         <Card className='h-100 text-center'>
                             <CardBody>
                                 <div>
-                                     <FontAwesomeIcon className='icon ms-3' icon={faLocationDot} size='2x' />
+                                     <FontAwesomeIcon className='icon ms-4' icon={faLocationDot} size='2x' />
                                 </div>
                                 <div>
-                                    <span className="msg">Address</span>
+                                    <span className="msg ">Address</span>
                                 </div>
                                 <div>
                                     <p className="h6 text-black-50 ">10th floor,
@@ -49,10 +49,10 @@ const Contact = () => {
                         <Card className='text-center h-100'>
                             <CardBody>
                                 <div>
-                                    <FontAwesomeIcon className='icon ms-3 ' icon={faEnvelope} size='2x' />
+                                    <FontAwesomeIcon className='icon ms-5' icon={faEnvelope} size='2x' />
                                 </div>
                                 <div>
-                                    <span className="msg">Gmail</span>
+                                    <span className="msg ms-1">Gmail</span>
                                 </div>
                                 <div>
                                     <p className="h6 text-black-50  pointer">
