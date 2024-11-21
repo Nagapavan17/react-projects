@@ -1,0 +1,33 @@
+.footer{
+    background-color: #252525;
+    color: white;
+    padding: 60px 40px 0px 40px;
+}
+.fbutton{
+    background-color: #b89841;
+    padding: 0px 10px; 
+    color: white;
+    border: none;
+    border-top-right-radius: 20px !important;
+    border-bottom-right-radius: 20px !important;
+    font-size: 30px !important;
+    
+}
+#form{
+    padding: 10px 25px;
+    border-top-left-radius: 20px !important;
+    border-bottom-left-radius: 20px !important;
+    border: none;
+}
+.ffrm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+hr{
+    border: 1px solid black !important;
+    margin-top: 20px !important;
+}
+.footpolicy{
+    text-align: center;
+}

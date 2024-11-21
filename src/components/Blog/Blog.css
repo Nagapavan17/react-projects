@@ -1,0 +1,115 @@
+.Menu{
+    position: sticky !important;
+    top: 0;
+    z-index: +100;
+}
+.blog-banner{
+    background-image: url('../assets/contact/blog-banner.png');
+    height: 350px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+.blog-heading {
+    display: flex;
+    height: 100%;
+    align-items: center;
+}
+.blog-heading h2{
+    font-weight: bolder;
+    font-size: 45px;
+    margin-left: 40px;
+    background-color: rgba(74, 64, 64,0.5);
+    background-blend-mode: multiply;
+}
+.images{
+    max-height: 350px;
+    max-width: 100%;
+    
+}
+.images:hover{
+    transition: all 2s ease;
+    transform: scale(1.04,1.04);
+}
+.slides{
+    width: 100%;
+    height: 800px;
+
+}
+.img1{
+    position: relative;
+    
+}
+.blog{
+    width: 95%;
+    left: 10px;
+    border-radius: 10px;
+    padding: 10px;
+    position: absolute;
+    top: 90%;
+}
+
+.search{
+    position: relative;
+}
+.search input{
+    padding: 8px;
+    width: 95%;
+    margin-top: 20px;
+}
+.search1{
+    position: absolute;
+    right:30px;
+    top:30px;
+    font-size: 25px;
+}
+.img2 img{
+    height: 80px;
+    width: 100px;
+}
+.post{
+    display: flex;
+    margin-bottom: 20px;
+}
+.head{
+    font-weight: bolder;
+}
+.head::after{
+    content: '';
+    display: block;
+    margin: 10px 0 ;
+    height: 1px;
+    width: 95%;
+    background-color: rgb(147, 151, 151);
+}
+.list li{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.date{
+    margin-top: -10px;
+}
+.instagram{
+    max-width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+.btn{
+    padding: 5px 10px !important;
+    margin-bottom: 12px;
+    border-radius: 0 !important;
+}
+.btn:hover{
+    background-color: brown !important;
+}
+.more{
+    padding: 12px;
+    border-radius: 20px;
+    border:2px solid orange;
+    color: orange;
+}
+.data{
+    text-align: justify;
+}

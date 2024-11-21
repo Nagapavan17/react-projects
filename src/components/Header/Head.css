@@ -1,0 +1,25 @@
+
+*{
+    padding: 0;
+    margin: 0;
+}
+.headcon{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 8px;
+    
+}
+.headcon>p{
+    color: white;
+}
+.Head-container{
+    background-color: #10252e;
+}
+.icon-con{
+    color: white;
+    padding: 10px;
+}
+span{
+    padding: 0px 15px;
+}

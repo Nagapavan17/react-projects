@@ -1,0 +1,22 @@
+.galle{
+    background-image: url("https://tidytheme.xyz/blackgallery/elizah/html/images/page_bg.jpg");
+    height: 300px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+.galcl{
+    display: flex;
+    justify-content: space-around;
+}
+.carousel-control-next-icon{
+    display: none !important;
+}
+.carousel-control-prev-icon{
+    display: none !important;
+}
+.carousel-indicators [data-bs-target]{
+    display: none !important;
+}

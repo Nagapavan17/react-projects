@@ -1,0 +1,117 @@
+.car-cap{
+    color: rgb(108, 230, 241) !important;
+    position: absolute;
+    left: 0 !important;
+    top: 300px;
+}
+.intro{
+    color: rgb(210, 165, 42);
+    padding-top: 10px;
+}
+.abt-button{
+    background-color: none !important;
+}
+.sercard{
+    text-align: justify;
+}
+.sericon{
+    color: rgb(199, 193, 65);
+    font-size:50px;
+}
+.Home-page{
+    background-color: rgb(239, 239, 239);
+}
+.servcard{
+    background-color: white;
+    padding: 20px 20px;
+    position: relative;
+    box-shadow: -6px 16px 18px #ff8b0547 inset, 1px 1px 3px grey;
+}
+.Fold{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    height: 40px;
+    width: 50px;
+   
+}
+.folde{
+    
+    background: linear-gradient(315deg, white 45%, #f2e7e7 50%, #efefef 56%);
+    height: 100%;
+    width: 100%;
+}
+.servtuto{
+    background-image: url("https://www.shutterstock.com/image-photo/group-colleagues-engaging-discussion-during-600nw-2461746317.jpg");
+    height: 300px;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: multiply;
+    background-color: rgba(0, 0, 0,0.6);
+    background-size: cover;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.proimg{
+    position: relative;
+    margin: 10px;
+}
+.procls{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background-color: rgba(0, 0, 0,0.6);
+    color: white;
+    height: 90%;
+    width: 80%;
+    z-index: +100;
+    text-align: center;
+    display: none;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.preeimg{
+    height: 300px;
+    width: 100%;
+}
+
+.proimg:hover .procls{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+}
+.blogcard{
+    background-color: white;
+    padding: 30px;
+}
+.blogbtn{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+.blogpic{
+    background-image: url("https://tidytheme.xyz/blackgallery/elizah/html/images/testimonial2.jpg");
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+    background-color: rgba(133, 197, 197,0.6);
+    background-blend-mode: multiply;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.formbtn{
+    border: none;
+    padding: 10px 30px;
+    background-color: white;
+    border-radius: 20px;
+}

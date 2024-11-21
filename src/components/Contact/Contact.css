@@ -1,0 +1,60 @@
+/* /styles */
+body{
+    display: block;
+    place-items:stretch;
+}
+.banner{
+    background-image: url('../assets/contact/banner.jpg');
+    height: 400px;
+    width: 100%;
+    color: white;
+    display: flex;
+    justify-content: flex-start;
+    vertical-align: center;
+}
+.banner1{
+    margin-top: 150px;
+}
+.banner1 h1{
+    font-size: 50px !important;
+    color: aliceblue;
+}
+.banner1 .text{
+    font-size: 20px;
+}
+
+/* contact details  */
+.msg{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(27, 24, 24,0.8);
+    cursor: pointer;
+}
+.msg::after{
+    content: "";
+    display: block;
+    margin: 10px auto;
+    margin-top: 25px;
+    height: 1px;
+    width: 90%;
+    background: rgba(49, 43, 43,0.3);
+
+}
+.icon{
+    color: rgba(163, 51, 51,0.7);
+    margin-bottom: 10px;
+}
+.send{
+    width: 140px !important;
+    background-color: rgba(163, 51, 51,0.8) !important;
+    margin-bottom: 20px ;
+}
+.text{
+    height: 180px !important;
+    padding-bottom: 140px !important;
+}
+.Menu{
+    position: sticky !important;
+    top: 0;
+    z-index: +100;
+}

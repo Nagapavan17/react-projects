@@ -1,0 +1,80 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+    
+}
+.Menu{
+    position: sticky !important;
+    top: 0;
+    z-index: +100;
+}
+.Banner{
+    background-image: url('../assets/contact/experian-about-us.webp');
+    height: 350px;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.display1{
+    font-size: 50px;
+    font-weight: 1200px !important;
+    color: rgb(86, 82, 82);
+}
+.para{
+    font-size: 19px;
+    padding-left: 10px;
+    color: rgb(86, 82, 82);
+    text-align: justify;
+}
+.heading h4, .skills{
+    font-weight: bolder;
+}
+.icon{
+    font-size: 40px;
+    margin-right: 20px;
+}
+.title{
+    font-size: 19px;
+    font-weight: bolder;
+}
+.people, .creative{
+    justify-content: flex-start;
+    align-items: center;
+}
+
+ .skills::after {
+    content: "";
+    display: block;
+    margin: 10px auto;
+    height: 1px;
+    width: 100px;
+    background-color: brown;
+}
+.text1, .para1 p{
+    text-align: justify;
+}
+.bar{
+    box-shadow:0 0 15px lightgray;
+    margin: 10px 0px;
+    padding: 10px 10px;
+}
+.team{
+    text-align: center;
+    padding: 30px 10px;
+}
+.team::after{
+    content: "";
+    display: block;
+    margin: 10px auto;
+    height: 1px;
+    width: 100px;
+    background-color: brown;
+}
+.team-img{
+    height: 350px;
+    width: 300px;
+    object-fit: cover;
+    object-position: right;
+}
+.our-team{
+    background-color: rgb(252, 251, 251);
+}
