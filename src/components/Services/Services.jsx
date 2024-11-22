@@ -20,7 +20,7 @@ import Serimg9 from '../assets/Serimg9.jpg'
 // Carousel imports
 import Carousel from 'react-bootstrap/Carousel';
 import Corimg1 from '../assets/Corimg1.jpg'
-import Corimg2 from '../assets/Corimg2.JPG'
+import Corimg2 from '../assets/Corimg2.jpg'
 import Corimg3 from '../assets/Corimg3.jpg'
 import { Container, Row , Col,  } from 'react-bootstrap';
 import Banners from '../Home/Banners';
