@@ -4,15 +4,15 @@ import Container from 'react-bootstrap/Container';
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import './Menubar.css'
-import Home from '../Home/Home';
-
+import img from '../assets/logo1.png'
 
 const Menubar = () => {
   return (
         <>
              <Navbar expand="lg" className="bg-body-tertiary Menu">
                     <Container fluid>
-                        <Navbar.Brand href="#">Navbar scroll</Navbar.Brand>
+                        <Navbar.Brand href="/"><img src={img} alt="logo" height={40} width={250}/>
+                        </Navbar.Brand>
                         <Navbar.Toggle aria-controls="navbarScroll" />
                         <Navbar.Collapse id="navbarScroll">
                         <Nav

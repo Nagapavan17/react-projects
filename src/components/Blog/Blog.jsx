@@ -1,7 +1,7 @@
 import React from 'react'
 import Head from '../Header/Head'
 import Menubar from '../Menubar/Menubar'
-import { Col, Container, Row,Carousel, CarouselItem } from 'react-bootstrap'
+import { Col, Container, Row} from 'react-bootstrap'
 import img from '../assets/contact/carousel.webp'
 import img1 from '../assets/contact/blog-banner.png'
 import insta1 from '../assets/contact/insta1.jpg'
@@ -39,7 +39,7 @@ const Blog = () => {
                                     <span className=""><FaTag />Marketing</span>
                                     <span className=""><LuMessageSquare />10</span>
                                 </p>
-                                <h2 className="heading">
+                                <h2 className="heading3">
                                         How to remove coffee stain
                                 </h2>
                                 <p className="data">
@@ -62,7 +62,7 @@ const Blog = () => {
                                     <span className=""><FaTag />Marketing</span>
                                     <span className=""><LuMessageSquare />10</span>
                                 </p>
-                                <h2 className="heading">
+                                <h2 className="heading8">
                                         How to remove coffee stain
                                 </h2>
                                 <p className="data">

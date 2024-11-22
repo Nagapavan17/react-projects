@@ -37,7 +37,7 @@ const About = () => {
             <Col xs={12} sm={12} md={6} lg={6}>
                 <div className="heading col-12 mt-3">
                   <h4>Welcome to ReachAll</h4>
-                  <p>ReachAll is seen as a benchmark in its outreach to investors, in its transparency and disclosures, publicly communicating its strategy, risks and opportunities, reducing information asymmetries and enabling fair valuation of the stock.
+                  <p className='enti'>ReachAll is seen as a benchmark in its outreach to investors, in its transparency and disclosures, publicly communicating its strategy, risks and opportunities, reducing information asymmetries and enabling fair valuation of the stock.
                   </p>
                 </div>
                 <div className="icons mt-4">
